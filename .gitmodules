@@ -1,0 +1,3 @@
+[submodule "CloudComputingFrontEnd"]
+	path = CloudComputingFrontEnd
+	url = git@github.com:itsbriany/CloudComputingFrontEnd.git

@@ -1,0 +1,20 @@
+{
+  "name": "mbr-backend-test",
+  "version": "0.1.0",
+  "description": "MBR Backend Tests",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "author": "Brian Yip",
+  "dependencies": {
+    "chai": "^3.4.1",
+    "config": "^1.19.0",
+    "mocha": "^2.3.4",
+    "supertest": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.3.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.1"
+  }
+}

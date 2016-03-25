@@ -1,0 +1,37 @@
+{
+  "name": "MortgageApplication",
+  "settings": {
+    "mongodb": {
+      "collection": "MortgageApplications",
+      "allowExtendedOperators": true
+    }
+  },
+  "plural": "MortgageApplications",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "applicantName": {
+      "type": "string",
+      "required": true
+    },
+    "mortgageValue": {
+      "type": "number",
+      "required": true
+    },
+    "houseID": {
+      "type": "number",
+      "required": true
+    },
+    "mortgageID": {
+      "type": "string",
+      "id": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,16 @@
+{
+  "databaseIDs": {
+    "host": "localhost",
+    "port": 27017,
+    "server": {
+      "auto_reconnect": true,
+      "reconnectTries": 100,
+      "reconnectInterval": 1000
+    },
+    "database": "MBR",
+    "password": "ilovecloudcomputing",
+    "name": "databaseIDs",
+    "user": "itsbriany",
+    "connector": "mongodb"
+  }
+}

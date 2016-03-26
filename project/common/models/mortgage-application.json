@@ -1,16 +1,16 @@
 {
   "name": "MortgageApplication",
+  "plural": "MortgageApplications",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
   "settings": {
     "mongodb": {
       "collection": "MortgageApplications",
       "allowExtendedOperators": true
     }
-  },
-  "plural": "MortgageApplications",
-  "base": "PersistedModel",
-  "idInjection": false,
-  "options": {
-    "validateUpsert": true
   },
   "properties": {
     "applicantName": {

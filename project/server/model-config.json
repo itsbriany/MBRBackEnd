@@ -16,13 +16,5 @@
   "MortgageApplication": {
     "dataSource": "databaseIDs",
     "public": true
-  },
-  "InsuranceQuote": {
-    "dataSource": "databaseIDs",
-    "public": true
-  },
-  "Employee": {
-    "dataSource": "databaseIDs",
-    "public": true
   }
 }

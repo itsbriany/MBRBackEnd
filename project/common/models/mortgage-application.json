@@ -28,6 +28,12 @@
     "mortgageID": {
       "type": "string",
       "id": true
+    },
+    "insuranceQuote": {
+      "type": "object"
+    },
+    "employment": {
+      "type": "object"
     }
   },
   "validations": [],

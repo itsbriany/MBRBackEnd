@@ -23,14 +23,14 @@ module.exports = (MortgageApplication) => {
   // });
 
   // Error handling
-  MortgageApplication.afterRemoteError('create', (ctx, next) => {
-    logger.log('error', ctx.error.message);
-    next(new Error('The mortgage application already exists'));
-  });
-
-  MortgageApplication.afterRemoteError('find', (ctx, next) => {
-    logger.log('error', ctx.error.message);
-    next(ctx.error);
-  });
+  // MortgageApplication.afterRemoteError('create', (ctx, next) => {
+  //   logger.log('error', ctx.error.message);
+  //   next(new Error('The mortgage application already exists'));
+  // });
+  //
+  // MortgageApplication.afterRemoteError('find', (ctx, next) => {
+  //   logger.log('error', ctx.error.message);
+  //   next(ctx.error);
+  // });
 
 };
